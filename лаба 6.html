@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+    <body>
+        <h2>1</h2>
+        <form>
+            <input type="text" placeholder="Фамилия"/>
+            <input type="text" placeholder="Имя"/>
+            <input type="text" placeholder="Отчество"/>
+            <input type="submit" value="ОК"/>
+        </form>
+        <h2>2</h2>
+        <form>
+            <input type="number" placeholder="Число"/>
+            <p>
+            <input type="checkbox"/>
+            <span>Поставить галочку</span>
+            </p>
+            <input type="submit" value="ОК" />
+        </form>
+        <h3>3</h3>
+        <form>
+            <p>
+            <span>Пол:</span>
+            <input type="radio" required/>
+            <span>Мужской</span>
+            <input type="radio" required/>
+            <span>Женский</span>
+            <input type="radio" required/>
+            <span>Другой</span>
+            </p>
+            <p>Фамилия: <input type="text" required minlength="3"/></p>
+            <p>Имя: <input type="text" required minlength="3"/></p>
+            <p>Отчество: <input type="text" minlength="3"/></p>
+            <p>Возраст: <input type="number" required/></p>
+            <p>Телефон: <input type="tel" placeholder="8 9ХХ ХХХ ХХ ХХ" required/></p>
+            <p>E-mail: <input type="email" placeholder="example@test.com" required/></p>
+            <p>
+                <span>Группа:</span>
+                <select required>
+                <option>ЭПИ-11</option>
+                <option>Не ЭПИ-11</option>
+                </select>
+            </p>
+            <p>Пароль: <input type="password" required /></p>
+            <p>Повторите пароль: <input type="password" required /></p>
+            <p>
+            <input type="checkbox" required />
+            <span>Учусь платно</span>
+            </p>
+            <input type="submit" value="Зарегистрироваться" />
+        </form>
+    </body>
+</html>
