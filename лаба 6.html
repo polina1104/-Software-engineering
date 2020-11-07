@@ -15,8 +15,8 @@
         <form>
             <input type="number" placeholder="Число"/>
             <p>
-            <input type="checkbox"/>
-            <span>Поставить галочку</span>
+            <input type="checkbox" id="check1"/>
+            <label for="check1">Поставить галочку</label>
             </p>
             <input type="submit" value="ОК" />
         </form>
@@ -24,12 +24,8 @@
         <form>
             <p>
             <span>Пол:</span>
-            <input type="radio" required/>
-            <span>Мужской</span>
-            <input type="radio" required/>
-            <span>Женский</span>
-            <input type="radio" required/>
-            <span>Другой</span>
+            <label>Мужской<input type="radio" name="sex" id="male"></label>
+            <label>Женский<input type="radio" name="sex" id="female"></label>
             </p>
             <p>Фамилия: <input type="text" required minlength="3"/></p>
             <p>Имя: <input type="text" required minlength="3"/></p>
